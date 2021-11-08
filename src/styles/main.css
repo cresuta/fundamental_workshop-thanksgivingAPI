@@ -18,8 +18,12 @@ main {
   margin: 0 5em;
 }
 
+.card {
+  margin: 1em 1em;
+}
+
 .card img {
-  margin: auto;
+  margin: 1em auto;
 }
 
 .card-body {
