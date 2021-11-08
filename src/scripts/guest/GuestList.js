@@ -2,7 +2,7 @@ import { getGuests, useGuests } from "../form/FormDataProvider.js"
 import { Guest } from "../guest/Guest.js";
 
 
-const guestList = document.querySelector('list-container')
+const guestList = document.querySelector('.list-container')
 
 export const GuestList = () => {
     getGuests()
@@ -12,9 +12,9 @@ export const GuestList = () => {
         guests.forEach((singleGuest) => {
             guestListHTML += Guest(singleGuest);
         })
-    })
 
-    guestList.innerHTML = `
+        guestList.innerHTML = `
         ${guestListHTML}
-    `
+        `
+    })
 }
