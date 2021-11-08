@@ -5,24 +5,28 @@ const guestForm = document.querySelector('.form-container');
 
 document.querySelector("body").addEventListener("click", clickEvent => {
   if(clickEvent.target.id = "submit") {
-    
-    const newGuest = {
-      name: document.querySelector("#name").value,
-      age: document.querySelector("#age").value,
-      favoriteDish: document.querySelector("#favoriteDish").value,
-      rightHanded: document.querySelector("#isRightHanded").value,
-      imageUrl: document.querySelector("#imageUrl").value
-    }
-
-      document.querySelector("#name").value = ""
-      document.querySelector("#age").value = ""
-      document.querySelector("#favoriteDish").value = ""
-      document.querySelector("#isRightHanded").value = ""
-      document.querySelector("#imageUrl").value = ""
-
-      saveGuest(newGuest)
-      .then(GuestList)     
-
+    if (!document.querySelector('#name').value || !document.querySelector('#age').value || !document.querySelector('#favoriteDish').value ||
+    !document.querySelector('#isRightHanded').value || !document.querySelector('#imageUrl').value) {
+      alert('Please fill out the entire form.')
+    } else {
+      
+      const newGuest = {
+        name: document.querySelector("#name").value,
+        age: document.querySelector("#age").value,
+        favoriteDish: document.querySelector("#favoriteDish").value,
+        rightHanded: document.querySelector("#isRightHanded").value,
+        imageUrl: document.querySelector("#imageUrl").value
+      }
+  
+        document.querySelector("#name").value = ""
+        document.querySelector("#age").value = ""
+        document.querySelector("#favoriteDish").value = ""
+        document.querySelector("#isRightHanded").value = ""
+        document.querySelector("#imageUrl").value = ""
+  
+        saveGuest(newGuest)
+        .then(GuestList)    
+    } 
   }
 })
 
