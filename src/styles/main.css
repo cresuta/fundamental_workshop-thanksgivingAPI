@@ -8,9 +8,17 @@ main {
 
 .form-container {
   width: 25vw;
+  margin: 0 5em;
 }
 
 .list-container {
   display: flex;
   flex-wrap: wrap;
+  width: 75vw;
+  margin: 0 5em;
 }
+
+/* img {
+  width: 200px;
+  height: 200px;
+} */

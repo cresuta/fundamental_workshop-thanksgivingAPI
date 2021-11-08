@@ -1,7 +1,7 @@
 export const Guest = (guest) => {
     return `
-    <div class="card" style="width: 18rem;">
-        <img src="${guest.imageUrl}" class="card-img-top" alt="${guest.name}">
+    <div class="card">
+        <img src="${guest.imageUrl}" style="width: 20rem; height: 20rem" class="card-img-top" alt="${guest.name}">
         <div class="card-body">
             <h5 class="card-title">${guest.name}</h5>
         </div>

@@ -34,6 +34,7 @@ document.querySelector("body").addEventListener("click", clickEvent => {
 
 export const Form = () => {
     guestForm.innerHTML = `
+    <h2>Thanksgiving Guest List</h2>
     <form>
     <div class="form-group">
       <label for="name">Name</label>
@@ -45,10 +46,10 @@ export const Form = () => {
     </div>
     <select class="form-select" aria-label="Default select example" id="favoriteDish">
       <option selected>Favorite Dish?</option>
-      <option value="sweet-potatoes">Sweet Potatoes</option>
-      <option value="shaken-dirties">Shaken Dirties</option>
-      <option value="stuffing">Stuffing</option>
-      <option value="pumpkin-pie">Pumpkin Pie</option>
+      <option value="Sweet Potatoes">Sweet Potatoes</option>
+      <option value="Shaken Dirties">Shaken Dirties</option>
+      <option value="Stuffing">Stuffing</option>
+      <option value="Pumpkin Pie">Pumpkin Pie</option>
     </select>
     <select class="form-select" aria-label="Default select example" id="isRightHanded">
       <option selected>Are you right handed?</option>
@@ -56,8 +57,8 @@ export const Form = () => {
       <option value="false">No</option>
     </select>
     <div class="form-group">
-      <label for="image">Your Image</label>
-      <input type="file" class="form-control-file" id="imageUrl">
+      <label for="image">Image</label>
+      <input type="text" class="form-control" id="imageUrl" placeholder="Copy/Paste Image Url">
     </div>
     <button type="submit" class="btn btn-primary" id="submit-guest">Submit</button>
     </form>
