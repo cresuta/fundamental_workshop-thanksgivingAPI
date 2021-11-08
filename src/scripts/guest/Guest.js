@@ -11,6 +11,9 @@ export const Guest = (guest) => {
             <li class="list-group-item">Favorite Dish: ${guest.favoriteDish}</li>
             <li class="list-group-item">Right Handed</li>
         </ul>
+        <div class="card-body">
+            <a href="#" class="btn btn-primary">Photo Gallery</a>
+        </div>
     </div>
     `    
     } else {
@@ -25,6 +28,9 @@ export const Guest = (guest) => {
                 <li class="list-group-item">Favorite Dish: ${guest.favoriteDish}</li>
                 <li class="list-group-item">Left Handed</li>
             </ul>
+            <div class="card-body">
+                <a href="#" class="btn btn-primary">Photo Gallery</a>
+            </div>
         </div>
         `    
     }

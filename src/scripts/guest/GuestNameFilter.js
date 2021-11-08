@@ -7,7 +7,7 @@ const guestList = document.querySelector('.list-container');
 export const FilterGuestName = () => {
     filterGuestNameSearch.innerHTML = `
     <h4>Search Guest By Name</h4>
-    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="filterName">
+    <input class="form-control mr-sm-2" type="search" placeholder="Guest Name" aria-label="Search" id="filterName">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="submit-filterName">Search</button>
     ` 
 

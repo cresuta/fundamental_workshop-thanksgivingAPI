@@ -6,7 +6,12 @@
       "age": 58,
       "favoriteDish": "Sweet Potatoes",
       "rightHanded": true,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRswV8rkX_9XlysOOUTijtVzzLvvpGHynHcQQ&usqp=CAU"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRswV8rkX_9XlysOOUTijtVzzLvvpGHynHcQQ&usqp=CAU",
+      "photoGallery" : [
+        "https://hollywoodlife.com/wp-content/uploads/2021/10/john-stamos-shirtless-ss-ftr.jpg?w=620",
+        "https://clickamericana.com/wp-content/uploads/Vintage-John-Stamos-in-blue-and-black-sweater.jpg",
+        "https://static.wikia.nocookie.net/scream-queens/images/4/4b/John-Stamos-2016-Comic-Con-Press-Line-5.jpeg/revision/latest?cb=20161211223436"
+      ]
     },
     {
       "id": 2,
@@ -14,7 +19,12 @@
       "age": 40,
       "favoriteDish": "Shaken Dirties",
       "rightHanded": false,
-      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/irish-actor-pierce-brosnan-as-james-bond-in-a-publicity-news-photo-138084872-1551742467.jpg?crop=1xw:1xh;center,top&resize=480:*"
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/irish-actor-pierce-brosnan-as-james-bond-in-a-publicity-news-photo-138084872-1551742467.jpg?crop=1xw:1xh;center,top&resize=480:*",
+      "photoGallery": [
+        "https://ichef.bbci.co.uk/news/976/cpsprodpb/118E3/production/_108670917_brosnan976pg.jpg",
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20180516meurs-un-autre-jour-james1-1568022987.jpg?crop=0.605xw:0.925xh;0.211xw,0.0753xh&resize=640:*",
+        "https://www.gannett-cdn.com/presto/2019/12/09/USAT/894446a0-973e-4398-96f9-2aa75d4977a2-XXX_DO1_BROSNAN_BOND_21_DCOV.JPG"
+      ]
     },
     {
       "id": 3,
@@ -22,7 +32,12 @@
       "age": 33,
       "favoriteDish": "Sweet Potatoes",
       "rightHanded": false,
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGQRcW2nVnJNW7rQOayUs5zvVYlqLkZMJIg&usqp=CAU"
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGQRcW2nVnJNW7rQOayUs5zvVYlqLkZMJIg&usqp=CAU",
+      "photoGallery": [
+        "https://cdn.cnn.com/cnnnext/dam/assets/211027035736-adele-concert-file-2017-super-tease.jpg",
+        "https://filmdaily.co/wp-content/uploads/2021/01/adele-lede-1300x867.jpg",
+        "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/adele-episode-1789-pictured-host-adele-during-the-monologue-news-photo-1623850606.jpg"
+      ]
     },
     {
       "name": "Tom Brady",

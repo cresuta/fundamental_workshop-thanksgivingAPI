@@ -26,10 +26,14 @@ main {
   border-radius: 10px;
 }
 
-.filter-dish,
-.filter-name {
+.filter-dish {
   width: 25vw;
   margin: 2em 5em;
+}
+
+.filter-name {
+  width: 25vw;
+  margin: 0 5em;
 }
 
 .list-container {
