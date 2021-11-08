@@ -25,28 +25,12 @@
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhGQRcW2nVnJNW7rQOayUs5zvVYlqLkZMJIg&usqp=CAU"
     },
     {
-      "name": "Jeremy Camp ",
-      "age": "43",
-      "favoriteDish": "Pumpkin Pie",
-      "rightHanded": "true",
-      "imageUrl": "https://morriscenter.org/wp-content/uploads/2019/11/Jeremy-Camp.jpg",
-      "id": 4
-    },
-    {
-      "name": "Jeremy Camp ",
-      "age": "43",
+      "name": "Tom Brady",
+      "age": 44,
       "favoriteDish": "Shaken Dirties",
       "rightHanded": "true",
-      "imageUrl": "https://morriscenter.org/wp-content/uploads/2019/11/Jeremy-Camp.jpg",
-      "id": 5
-    },
-    {
-      "name": "Jeremy Camp ",
-      "age": "43",
-      "favoriteDish": "Sweet Potatoes",
-      "rightHanded": "false",
-      "imageUrl": "https://morriscenter.org/wp-content/uploads/2019/11/Jeremy-Camp.jpg",
-      "id": 6
+      "imageUrl": "https://static01.nyt.com/images/2021/02/07/sports/07sb-oldbrady/07sb-oldbrady-mobileMasterAt3x.jpg",
+      "id": 4
     }
   ]
 }

@@ -13,7 +13,7 @@ document.querySelector("body").addEventListener("click", clickEvent => {
       
       const newGuest = {
         name: document.querySelector("#name").value,
-        age: document.querySelector("#age").value,
+        age: parseInt(document.querySelector("#age").value),
         favoriteDish: document.querySelector("#favoriteDish").value,
         rightHanded: document.querySelector("#isRightHanded").value,
         imageUrl: document.querySelector("#imageUrl").value
