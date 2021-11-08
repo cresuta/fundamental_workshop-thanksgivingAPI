@@ -31,6 +31,22 @@
       "rightHanded": "true",
       "imageUrl": "https://morriscenter.org/wp-content/uploads/2019/11/Jeremy-Camp.jpg",
       "id": 4
+    },
+    {
+      "name": "Jeremy Camp ",
+      "age": "43",
+      "favoriteDish": "Shaken Dirties",
+      "rightHanded": "true",
+      "imageUrl": "https://morriscenter.org/wp-content/uploads/2019/11/Jeremy-Camp.jpg",
+      "id": 5
+    },
+    {
+      "name": "Jeremy Camp ",
+      "age": "43",
+      "favoriteDish": "Sweet Potatoes",
+      "rightHanded": "false",
+      "imageUrl": "https://morriscenter.org/wp-content/uploads/2019/11/Jeremy-Camp.jpg",
+      "id": 6
     }
   ]
 }

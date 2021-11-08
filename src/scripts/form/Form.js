@@ -34,7 +34,7 @@ document.querySelector("body").addEventListener("click", clickEvent => {
 
 export const Form = () => {
     guestForm.innerHTML = `
-    <h2>Thanksgiving Guest List</h2>
+    <h2>Thanksgiving Guest Submission</h2>
     <form>
     <div class="form-group">
       <label for="name">Name</label>
