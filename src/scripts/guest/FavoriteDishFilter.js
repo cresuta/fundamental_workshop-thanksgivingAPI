@@ -6,7 +6,7 @@ const guestList = document.querySelector('.list-container');
 
 export const FavoriteDishFilter = () => {
     filterFavoriteDishSelect.innerHTML = `
-    <h2>Filter Guests By Favorite Dishes</h2>
+    <h4>Filter Guests By Favorite Dishes</h4>
     <select class="form-select" aria-label="Default select example" id="filterDish">
         <option selected>Favorite Dish?</option>
         <option value="Sweet Potatoes">Sweet Potatoes</option>
