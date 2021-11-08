@@ -4,7 +4,8 @@ import { GuestList } from "../guest/GuestList.js";
 const guestForm = document.querySelector('.form-container');
 
 document.querySelector("body").addEventListener("click", clickEvent => {
-  if(clickEvent.target.id = "submit") {
+  if(clickEvent.target.id === "submit-guest") {
+    console.log('Submitted!')
     if (!document.querySelector('#name').value || !document.querySelector('#age').value || !document.querySelector('#favoriteDish').value ||
     !document.querySelector('#isRightHanded').value || !document.querySelector('#imageUrl').value) {
       alert('Please fill out the entire form.')
@@ -58,7 +59,7 @@ export const Form = () => {
       <label for="image">Your Image</label>
       <input type="file" class="form-control-file" id="imageUrl">
     </div>
-    <button type="submit" class="btn btn-primary" id="submit">Submit</button>
+    <button type="submit" class="btn btn-primary" id="submit-guest">Submit</button>
     </form>
     `
 }
