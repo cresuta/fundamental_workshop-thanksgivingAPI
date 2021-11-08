@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  justify-content: space-evenly;
+  margin: 5em 5em;
+}
+
+.form-container {
+  width: 25vw;
+}
+
+.list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
