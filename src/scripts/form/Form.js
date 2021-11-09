@@ -42,7 +42,7 @@ export const Form = () => {
     </div>
     <div class="form-group">
       <label for="age">Age</label>
-      <input type="text" class="form-control" id="age" placeholder="Enter age">
+      <input type="number" class="form-control" id="age" placeholder="Enter age">
     </div>
     <select class="form-select" aria-label="Default select example" id="favoriteDish">
       <option selected>Favorite Dish?</option>
