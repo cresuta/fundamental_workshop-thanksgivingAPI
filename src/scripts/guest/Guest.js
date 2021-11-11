@@ -1,3 +1,22 @@
+import {GuestEditForm} from "./GuestEditForm.js"
+
+// Click listener for delete button
+// document.querySelector('.list-container').addEventListener("click", clickEvent => {
+//     if(clickEvent.target.id.startsWith("deleteNote")) {
+//         const idToDelete = clickEvent.target.id.split("-")[1];
+//         deleteNote(idToDelete)
+//         .then(NoteList)
+//     }
+// })
+
+// Click listener for edit button
+document.querySelector('.list-container').addEventListener("click", clickEvent => {
+    if(clickEvent.target.id.startsWith("editGuest")) {
+        const idToEdit = +clickEvent.target.id.split("-")[1];
+        GuestEditForm(idToEdit)
+    }
+})
+
 export const Guest = (guest) => {
     if (guest.rightHanded) {
         return `

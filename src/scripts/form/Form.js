@@ -4,7 +4,7 @@ import { GuestList } from "../guest/GuestList.js";
 const guestForm = document.querySelector('.form-container');
 
 document.querySelector("body").addEventListener("click", clickEvent => {
-  if(clickEvent.target.id === "submit-guest") {
+  if(clickEvent.target.id === "submitGuest") {
     console.log('Submitted!')
     if (!document.querySelector('#name').value || !document.querySelector('#age').value || !document.querySelector('#favoriteDish').value ||
     !document.querySelector('#isRightHanded').value || !document.querySelector('#imageUrl').value) {
@@ -66,7 +66,7 @@ export const Form = () => {
       <label for="image">Image</label>
       <input type="text" class="form-control" id="imageUrl" placeholder="Copy/Paste Image Url">
     </div>
-    <button type="submit" class="btn btn-primary" id="submit-guest">Submit</button>
+    <button type="submit" class="btn btn-primary" id="submitGuest">Submit</button>
     </form>
     `
 }

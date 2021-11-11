@@ -46,6 +46,14 @@
       "rightHanded": true,
       "imageUrl": "https://static01.nyt.com/images/2021/02/07/sports/07sb-oldbrady/07sb-oldbrady-mobileMasterAt3x.jpg",
       "id": 4
+    },
+    {
+      "name": "James Bond",
+      "age": 41,
+      "favoriteDish": "Select favorite dish...",
+      "rightHanded": true,
+      "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/irish-actor-pierce-brosnan-as-james-bond-in-a-publicity-news-photo-138084872-1551742467.jpg?crop=1xw:1xh;center,top&resize=480:*",
+      "id": 5
     }
   ]
 }
