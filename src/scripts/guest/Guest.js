@@ -10,9 +10,13 @@ export const Guest = (guest) => {
             <li class="list-group-item">${guest.age} yrs old</li>
             <li class="list-group-item">${guest.favoriteDish}</li>
             <li class="list-group-item">Right Handed</li>
+            <a href="#" class="btn btn-primary">Photo Gallery</a>
         </ul>
         <div class="card-body">
-            <a href="#" class="btn btn-primary">Photo Gallery</a>
+            <button type="submit" class="btn btn-light btn-outline-dark note-btn" id="deleteGuest-${guest.id}">
+            <i class="bi bi-trash"></i>Remove Guest</button>
+            <button type="submit" class="btn btn-light btn-outline-dark guest-btn" id="editGuest-${guest.id}">
+            <i class="bi bi-pencil-square"></i>Edit Guest</button>
         </div>
     </div>
     `    
@@ -27,9 +31,13 @@ export const Guest = (guest) => {
                 <li class="list-group-item">${guest.age} yrs old</li>
                 <li class="list-group-item">${guest.favoriteDish}</li>
                 <li class="list-group-item">Left Handed</li>
+                <a href="#" class="btn btn-primary">Photo Gallery</a>
             </ul>
             <div class="card-body">
-                <a href="#" class="btn btn-primary">Photo Gallery</a>
+                <button type="submit" class="btn btn-light btn-outline-dark note-btn" id="deleteGuest-${guest.id}">
+                <i class="bi bi-trash"></i>Remove Guest</button>
+                <button type="submit" class="btn btn-light btn-outline-dark guest-btn" id="editGuest-${guest.id}">
+                <i class="bi bi-pencil-square"></i>Edit Guest</button>  
             </div>
         </div>
         `    
