@@ -1,5 +1,7 @@
 import { useGuests } from "../form/FormDataProvider.js"
 
+const contentTarget = document.querySelector('.modal-container')
+
 export const ModalPhotoGallery = (guestId) => {
     const allGuests = useGuests();
 
@@ -17,7 +19,9 @@ export const ModalPhotoGallery = (guestId) => {
           </button>
         </div>
         <div class="modal-body">
-          
+          <img src="${guestWeWantToEdit.photoGallery[0]}">
+          <img src="${guestWeWantToEdit.photoGallery[1]}">
+          <img src="${guestWeWantToEdit.photoGallery[2]}">
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>

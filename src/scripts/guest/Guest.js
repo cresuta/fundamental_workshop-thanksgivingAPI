@@ -1,5 +1,6 @@
 import { deleteGuest } from "../form/FormDataProvider.js";
 import {GuestEditForm} from "./GuestEditForm.js"
+import {ModalPhotoGallery} from "./ModalPhotoGallery.js"
 
 // Click listener for delete button
 document.querySelector('.list-container').addEventListener("click", clickEvent => {
