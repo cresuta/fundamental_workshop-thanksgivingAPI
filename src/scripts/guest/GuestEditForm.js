@@ -3,16 +3,16 @@ import { GuestList } from "./GuestList.js";
 
 const contentTarget = document.querySelector(".form-container");
 
-contentTarget.addEventListener("click", clickEvent => {
+document.querySelector("body").addEventListener("click", clickEvent => {
     if (clickEvent.target.id.startsWith("submitGuest")) {
         
       const editedGuest = {
             id: parseInt(clickEvent.target.id.split("-")[1]),
-            name: document.querySelector('#').value,
-            age: parseInt(document.querySelector('#').value),
-            favoriteDish: document.querySelector('#').value,
-            rightHanded : Boolean(document.querySelector('#').value),
-            imageUrl: document.querySelector('#').value
+            name: document.querySelector('#name').value,
+            age: parseInt(document.querySelector('#age').value),
+            favoriteDish: document.querySelector('#favoriteDish').value,
+            rightHanded : Boolean(document.querySelector('#isRightHanded').value),
+            imageUrl: document.querySelector('#imageUrl').value
         }
 
         updateGuest(editedGuest)

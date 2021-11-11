@@ -54,6 +54,22 @@
       "rightHanded": true,
       "imageUrl": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/irish-actor-pierce-brosnan-as-james-bond-in-a-publicity-news-photo-138084872-1551742467.jpg?crop=1xw:1xh;center,top&resize=480:*",
       "id": 5
+    },
+    {
+      "name": "The Rock",
+      "age": 49,
+      "favoriteDish": "Stuffing",
+      "rightHanded": true,
+      "imageUrl": "https://i.guim.co.uk/img/media/62d058b69729ab0485c74f0130242d848d82526e/0_64_3500_2100/master/3500.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=effbd66e1bece9675d687cbfbd4697a9",
+      "id": 6
+    },
+    {
+      "id": 7,
+      "name": "The Rock ",
+      "age": 50,
+      "favoriteDish": "Sweet Potatoes",
+      "rightHanded": true,
+      "imageUrl": "https://i.guim.co.uk/img/media/62d058b69729ab0485c74f0130242d848d82526e/0_64_3500_2100/master/3500.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=effbd66e1bece9675d687cbfbd4697a9"
     }
   ]
 }
