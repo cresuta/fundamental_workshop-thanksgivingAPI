@@ -1,13 +1,14 @@
+import { deleteGuest } from "../form/FormDataProvider.js";
 import {GuestEditForm} from "./GuestEditForm.js"
 
 // Click listener for delete button
-// document.querySelector('.list-container').addEventListener("click", clickEvent => {
-//     if(clickEvent.target.id.startsWith("deleteNote")) {
-//         const idToDelete = clickEvent.target.id.split("-")[1];
-//         deleteNote(idToDelete)
-//         .then(NoteList)
-//     }
-// })
+document.querySelector('.list-container').addEventListener("click", clickEvent => {
+    if(clickEvent.target.id.startsWith("deleteGuest")) {
+        const idToDelete = +clickEvent.target.id.split("-")[1];
+        deleteGuest(idToDelete)
+        .then(NoteList)
+    }
+})
 
 // Click listener for edit button
 document.querySelector('.list-container').addEventListener("click", clickEvent => {
@@ -29,12 +30,12 @@ export const Guest = (guest) => {
             <li class="list-group-item">${guest.age} yrs old</li>
             <li class="list-group-item">${guest.favoriteDish}</li>
             <li class="list-group-item">Right Handed</li>
-            <a href="#" class="btn btn-primary">Photo Gallery</a>
+            <button type="submit" class="btn btn-primary" id="photoGallery-${guest.id}">Photo Gallery</button>
         </ul>
         <div class="card-body">
-            <button type="submit" class="btn btn-light btn-outline-dark note-btn" id="deleteGuest-${guest.id}">
+            <button type="submit" class="btn btn-light btn-outline-dark note-btn" id="deleteGuest-${guest.id}" onClick="document.querySelector('.form-container').scrollIntoView()">
             <i class="bi bi-trash"></i>Remove Guest</button>
-            <button type="submit" class="btn btn-light btn-outline-dark guest-btn" id="editGuest-${guest.id}">
+            <button type="submit" class="btn btn-light btn-outline-dark guest-btn" id="editGuest-${guest.id}" onClick="document.querySelector('.form-container').scrollIntoView()">
             <i class="bi bi-pencil-square"></i>Edit Guest</button>
         </div>
     </div>
@@ -50,12 +51,12 @@ export const Guest = (guest) => {
                 <li class="list-group-item">${guest.age} yrs old</li>
                 <li class="list-group-item">${guest.favoriteDish}</li>
                 <li class="list-group-item">Left Handed</li>
-                <a href="#" class="btn btn-primary">Photo Gallery</a>
+                <button type="submit" class="btn btn-primary" id="photoGallery-${guest.id}">Photo Gallery</button>
             </ul>
             <div class="card-body">
-                <button type="submit" class="btn btn-light btn-outline-dark note-btn" id="deleteGuest-${guest.id}">
+                <button type="submit" class="btn btn-light btn-outline-dark note-btn" id="deleteGuest-${guest.id}" onClick="document.querySelector('.form-container').scrollIntoView()">
                 <i class="bi bi-trash"></i>Remove Guest</button>
-                <button type="submit" class="btn btn-light btn-outline-dark guest-btn" id="editGuest-${guest.id}">
+                <button type="submit" class="btn btn-light btn-outline-dark guest-btn" id="editGuest-${guest.id}" onClick="document.querySelector('.form-container').scrollIntoView()">
                 <i class="bi bi-pencil-square"></i>Edit Guest</button>  
             </div>
         </div>

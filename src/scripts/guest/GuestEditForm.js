@@ -20,7 +20,6 @@ document.querySelector("body").addEventListener("click", clickEvent => {
     }
 })
 
-
 export const GuestEditForm = (guestId) => {
     // Give this component access to our application's notes state
     const allGuests = useGuests();
