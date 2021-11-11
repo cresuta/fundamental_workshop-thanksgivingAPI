@@ -7,7 +7,7 @@
       "favoriteDish": "Sweet Potatoes",
       "rightHanded": true,
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRswV8rkX_9XlysOOUTijtVzzLvvpGHynHcQQ&usqp=CAU",
-      "photoGallery" : [
+      "photoGallery": [
         "https://hollywoodlife.com/wp-content/uploads/2021/10/john-stamos-shirtless-ss-ftr.jpg?w=620",
         "https://clickamericana.com/wp-content/uploads/Vintage-John-Stamos-in-blue-and-black-sweater.jpg",
         "https://static.wikia.nocookie.net/scream-queens/images/4/4b/John-Stamos-2016-Comic-Con-Press-Line-5.jpeg/revision/latest?cb=20161211223436"
@@ -41,19 +41,11 @@
     },
     {
       "name": "Tom Brady",
-      "age": 44,
-      "favoriteDish": "Shaken Dirties",
-      "rightHanded": "true",
+      "age": 43,
+      "favoriteDish": "Sweet Potatoes",
+      "rightHanded": true,
       "imageUrl": "https://static01.nyt.com/images/2021/02/07/sports/07sb-oldbrady/07sb-oldbrady-mobileMasterAt3x.jpg",
       "id": 4
-    },
-    {
-      "name": "Tim Tebow",
-      "age": 34,
-      "favoriteDish": "Stuffing",
-      "rightHanded": "false",
-      "imageUrl": "https://sportshub.cbsistatic.com/i/r/2018/10/06/f9e8ecd4-d0ce-44c2-a7bc-e26a571c498a/thumbnail/1200x675/f8d0fb67eaa6587de9ba70bdb5f1e72d/tim-tebow-florida-getty.jpg",
-      "id": 5
     }
   ]
 }

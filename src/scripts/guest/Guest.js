@@ -8,7 +8,7 @@ export const Guest = (guest) => {
         </div>
         <ul class="list-group list-group-flush">
             <li class="list-group-item">${guest.age} yrs old</li>
-            <li class="list-group-item">Favorite Dish: ${guest.favoriteDish}</li>
+            <li class="list-group-item">${guest.favoriteDish}</li>
             <li class="list-group-item">Right Handed</li>
         </ul>
         <div class="card-body">
@@ -25,7 +25,7 @@ export const Guest = (guest) => {
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">${guest.age} yrs old</li>
-                <li class="list-group-item">Favorite Dish: ${guest.favoriteDish}</li>
+                <li class="list-group-item">${guest.favoriteDish}</li>
                 <li class="list-group-item">Left Handed</li>
             </ul>
             <div class="card-body">

@@ -22,3 +22,13 @@ export const saveGuest = (guest) => {
     })
     .then(getGuests)
 }
+
+export const updateGuest = (guest) => {
+    return fetch(`http://localhost:8088/guests/${guest.id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(guest)
+    })
+}
