@@ -18,6 +18,14 @@ document.querySelector('.list-container').addEventListener("click", clickEvent =
     }
 })
 
+// Click listener for photo gallery button (modal popup)
+document.querySelector('.list-container').addEventListener("click", clickEvent => {
+    if (clickEvent.target.id.startsWith("photoGallery")) {
+        const idToShowPhotoGallery = +clickEvent.target.id.split("-")[1];
+        ModalPhotoGallery(idToShowPhotoGallery)
+    }
+})
+
 export const Guest = (guest) => {
     if (guest.rightHanded) {
         return `
@@ -30,7 +38,7 @@ export const Guest = (guest) => {
             <li class="list-group-item">${guest.age} yrs old</li>
             <li class="list-group-item">${guest.favoriteDish}</li>
             <li class="list-group-item">Right Handed</li>
-            <button type="submit" class="btn btn-primary" id="photoGallery-${guest.id}">Photo Gallery</button>
+            <button type="button data-toggle="modal" class="btn btn-primary" id="photoGallery-${guest.id}">Photo Gallery</button>
         </ul>
         <div class="card-body">
             <button type="submit" class="btn btn-light btn-outline-dark note-btn" id="deleteGuest-${guest.id}" onClick="document.querySelector('.form-container').scrollIntoView()">
@@ -51,7 +59,7 @@ export const Guest = (guest) => {
                 <li class="list-group-item">${guest.age} yrs old</li>
                 <li class="list-group-item">${guest.favoriteDish}</li>
                 <li class="list-group-item">Left Handed</li>
-                <button type="submit" class="btn btn-primary" id="photoGallery-${guest.id}">Photo Gallery</button>
+                <button type="button data-toggle="modal" class="btn btn-primary" id="photoGallery-${guest.id}">Photo Gallery</button>
             </ul>
             <div class="card-body">
                 <button type="submit" class="btn btn-light btn-outline-dark note-btn" id="deleteGuest-${guest.id}" onClick="document.querySelector('.form-container').scrollIntoView()">
